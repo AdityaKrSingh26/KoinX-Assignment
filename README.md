@@ -47,7 +47,7 @@ The Cryptocurrency Tracker is a Node.js application that fetches the current pri
 
 ## API Endpoints
 ### 1. Get Latest Stats
-- **Endpoint**: `/api/stats`
+- **Endpoint**: `/stats`
 - **Method**: `GET`
 - **Query Parameters**:
   - `coin`: (string) The name of the cryptocurrency (e.g., `bitcoin`, `ethereum`, `matic`).
@@ -63,7 +63,7 @@ The Cryptocurrency Tracker is a Node.js application that fetches the current pri
 
 
 ### 2. Get Price Deviation
-- **Endpoint**: `/api/deviation`
+- **Endpoint**: `/deviation`
 - **Method**: `GET`
 - **Query Parameters**:
   - `coin`: (string) The name of the cryptocurrency (e.g., `bitcoin`, `ethereum`, `matic`).
