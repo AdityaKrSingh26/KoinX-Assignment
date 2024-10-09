@@ -3,7 +3,6 @@ import CryptoPrice from '../models/CryptoPrice.model.js';
 
 const API_KEY = process.env.API_KEY;
 const COINGECKO_API_URL = `https://api.coingecko.com/api/v3/simple/price?x_cg_demo_api_key=${API_KEY}`
-console.log(API_KEY)
 
 
 const fetchAndStorePrices = async () => {
